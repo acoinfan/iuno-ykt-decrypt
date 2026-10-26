@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name         雨课堂加密字体还原（iuno）
 // @namespace    iuno-ykt-decrypt
-// @version      1.0.0
+// @version      1.0.1
 // @description  雨课堂作业里的题目用加密字体显示，复制出来是乱码。本脚本读出加密字体的 cmap，按固定的字形对照表把页面文字直接换成真字，复制、翻译、搜索都正常。
+// @homepageURL  https://github.com/acoinfan/iuno-ykt-decrypt
+// @supportURL   https://github.com/acoinfan/iuno-ykt-decrypt/issues
 // @match        *://*.yuketang.cn/*
 // @match        *://yuketang.cn/*
 // @run-at       document-idle
